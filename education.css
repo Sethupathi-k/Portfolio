@@ -1,0 +1,81 @@
+  /* Styles for the navigation links */
+  .but {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .but:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+    /* Styles for the <a> element within <div> */
+    div a {
+        color: black;
+        text-decoration: none;
+      }
+      
+      div a:hover {
+        color: red;
+        font-weight: bold;
+      }
+
+
+
+  
+  
+   .container {
+    
+    background-size: cover;
+    background-position: center;
+    padding: 30px 270px;
+    
+    color: #fff;
+  }
+  
+  .container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .extraordinary-list {
+    list-style: none;
+    padding: 0;
+    margin-top: -80px;
+  }
+  
+  .extraordinary-list li {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(157, 85, 122, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    
+  }
+  
+  .extraordinary-list li:hover {
+    transform: scale(1.1);
+  }
+  
+  .extraordinary-list li:before,
+  .extraordinary-list li:after {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    transition: border-radius 0.3s;
+  }
+  
+  .extraordinary-list li:hover:before,
+  .extraordinary-list li:hover:after {
+    border-radius: 10px;
+  }
+  
